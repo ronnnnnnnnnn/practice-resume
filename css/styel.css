@@ -1,0 +1,277 @@
+ body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+
+}
+ #image{
+    border-radius: 50%;
+
+ }
+
+p,li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+h4{
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 20px;
+     color: black;
+}
+
+.work-experience{
+    margin: 51px 0px 0px 0px;
+}
+
+.work-experience > h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: black;
+    margin: 0;
+
+}.work-experience > .experience{
+    margin: 12px 0px;
+}
+
+.work-experience > .experience > h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px 0px 12px 0px;
+}
+
+.work-experience> .experience > p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+.work-experience >.experience .subtitle{
+    color: #fb6d3a;
+}
+
+.work-experience > .experience ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 8px 0px 0px 0px;
+}
+
+.work-experience > .experience ul li::before{
+    content: "\2022";
+    font-weight: 700 ;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    display:  inline-block;
+    width: 10px;
+}
+
+.work-experience > .experience > li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.education > h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: black;
+    margin: 0;
+}
+
+.education > .educ{
+    margin: 12px 0px;
+}
+
+.education > .educ > h4{
+    margin: 0px;
+}
+
+.education > .educ > h5{
+    margin: 20px 0px 12px 0px;
+}
+
+.education > .educ > p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin: 0px;
+}
+
+.education > .educ > .address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.sidebar{
+    width: 370px;
+    background: #182939;
+    padding-top: 40px ;
+    color: white;
+}
+
+.sidebar > .content{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.sidebar > .tech-skills{
+    margin: 47px 0px 0px 0px;
+
+}
+
+.tech-skills ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.tech-skills ul li::before{
+    content: "\2022";
+    font-weight: 700 ;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fb6d3a;
+    display:  inline-block;
+    width: 10px;
+}
+
+.tech-skills li{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.soft-skills ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.soft-skills ul li::before{
+    content: "\2022";
+    font-weight: 700 ;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fb6d3a;
+    display:  inline-block;
+    width: 10px;
+}
+
+.soft-skills li{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contacts p {
+    color: white;
+    font-weight: 700;
+     font-size: 14px;
+     line-height: 24px;
+     margin: 8px 0px 0px 0px;
+
+}
+
+.contacts .phone ,.email{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.main-content{
+    width: calc(100% - 370px);
+    padding:102px 217px 107px 88px;
+}
+
+.summary{
+    margin-bottom: 40px;
+}
+
+.summary > h4{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+}
+
+.summary > h2{
+    margin:19px 0px 24px 0px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: black;
+}
+
+.summary > p{
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+.projects > h3{
+    margin: 0 ;
+}
+
+.projects > ol{
+    margin-top: 8 0 1.5em 0;
+    padding: 0;
+    counter-reset: item;
+}
+
+ol > li{
+    margin: 0;
+    padding: 0 0 0 2em;
+    text-indent: -2em;
+    list-style-type: none;
+    counter-increment: item;
+
+}
+
+ol > li:before{
+    display: inline-block;
+    width: 1em;
+    padding-right: 13px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: black ;
+    text-align: right;
+    content: counter(item) ".";
+}
+
+.projects > ol span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+.projects  a{
+    margin-top: 8px ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line:underline;
+    color: #595959;
+
+}
